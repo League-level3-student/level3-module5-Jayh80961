@@ -16,9 +16,8 @@ public class StringTrimmer {
         else {
         	str.replace(str.substring(str.length()-1),"");
         	removesLeft-=1;
-        	str.trim();
+        	return trimString(str,removesLeft);
         }
-        return null;
         
     }
 }
